@@ -1,31 +1,31 @@
 
         SELECT 
-                        BusinessEntityID,
-                        PersonType,
-                        Title,
-                        FirstName,
-                        MiddleName,
-                        LastName,
-                        ModifiedDate
+               BusinessEntityID,
+               PersonType,
+               Title,
+               FirstName,
+               MiddleName,
+               LastName,
+               ModifiedDate
 
-           FROM Person.Person
+          FROM Person.Person
          ORDER BY BusinessEntityID
-         OFFSET 5 ROWS     
+        OFFSET 5 ROWS     
 
 
-          SELECT 
-                        BusinessEntityID,
-                        PersonType,
-                        Title,
-                        FirstName,
-                        MiddleName,
-                        LastName,
-                        ModifiedDate
+        SELECT 
+               BusinessEntityID,
+               PersonType,
+               Title,
+               FirstName,
+               MiddleName,
+               LastName,
+               ModifiedDate
 
-           FROM Person.Person
+          FROM Person.Person
          ORDER BY BusinessEntityID
-         OFFSET 5 ROWS
-           FETCH NEXT 10 ROWS ONLY                 
+        OFFSET 5 ROWS
+         FETCH NEXT 10 ROWS ONLY                 
                         
 
 
