@@ -12,16 +12,16 @@
 
 
       SELECT TOP 1000
-                      BusinessEntityID AS [ID PESSOA],
-                      PersonType          AS [TIPO PESSOA],
-                      Title                     AS [TITULO],
-                      FirstName           AS [PRIMEIRO NOME],
-                      MiddleName       AS [NOME DO MEIO],
-                      LastName            AS [ULTIMO NOME]
-         FROM Person.Person
+             BusinessEntityID AS [ID PESSOA],
+             PersonType       AS [TIPO PESSOA],
+             Title            AS [TITULO],
+             FirstName        AS [PRIMEIRO NOME],
+             MiddleName       AS [NOME DO MEIO],
+             LastName         AS [ULTIMO NOME]
+        FROM Person.Person
        ORDER BY FirstName
 
 
        SELECT DISTINCT
-                      FirstName
+              FirstName
          FROM Person.Person
