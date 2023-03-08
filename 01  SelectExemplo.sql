@@ -23,12 +23,5 @@
 
 
        SELECT DISTINCT
-                      --TOP 1000
-                      --BusinessEntityID AS [ID PESSOA],
-                      --PersonType          AS [TIPO PESSOA],
-                      --Title                     AS [TITULO],
                       FirstName 
-                      --MiddleName       AS [NOME DO MEIO],
-                     -- LastName            AS [ULTIMO NOME]
          FROM Person.Person
-        --WHERE Title = 'Mr.'
