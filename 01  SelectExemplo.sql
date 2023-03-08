@@ -23,5 +23,5 @@
 
 
        SELECT DISTINCT
-                      FirstName 
+                      FirstName
          FROM Person.Person
