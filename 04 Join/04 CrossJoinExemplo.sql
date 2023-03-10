@@ -1,4 +1,4 @@
 
         SELECT *
-           FROM Sales.SalesPerson
-          CROSS JOIN HumanResources.Employee
+          FROM Sales.SalesPerson
+         CROSS JOIN HumanResources.Employee
