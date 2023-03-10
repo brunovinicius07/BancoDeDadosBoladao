@@ -11,4 +11,4 @@
                         
           FROM Sales.SalesPerson AS SSP
          RIGHT JOIN  Person.Person AS PP
-           ON  SSP.BusinessEntityID = PP.BusinessEntityID
+           ON  SSP.BusinessEntityID = PP.BusinessEntityID 
